@@ -30,8 +30,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # Leave user_name and user_email unset to commit under your own username
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          # Optional. I'm using this for testing.
-          allow_empty_commit: false
+
